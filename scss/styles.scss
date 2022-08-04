@@ -8,7 +8,10 @@ body{
 .wrapper {}
 .content {}
 .hi {}
-.container {}
+.container {
+    max-width: 1180px;
+    margin:0 auto;
+}
 .hi__row {}
 .hi__text {}
 .hi__title {}
