@@ -10,9 +10,11 @@ body{
     overflow: hidden; //если не влазиет, то контент обрезается без прокрутки
     display: flex; //оболочка стала flex оболочкой
     flex-direction: column; //содержимое флекс оболочки выстроили в колонку
-    justify-content: space-between;
+    
 }
-.content {}
+.content {
+    
+}
 .hi {}
 .container {
     max-width: 1180px;
@@ -25,4 +27,11 @@ body{
 .hi__image {}
 .footer {}
 .footer__row {}
-.footer__text {}
+.footer__text {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #445162;
+}
