@@ -10,28 +10,36 @@ body{
     overflow: hidden; //если не влазиет, то контент обрезается без прокрутки
     display: flex; //оболочка стала flex оболочкой
     flex-direction: column; //содержимое флекс оболочки выстроили в колонку
-    
 }
 .content {
-    
+    flex: 1 1 auto;
 }
 .hi {}
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    
 }
-.hi__row {}
+.hi__row {
+    
+}
 .hi__text {}
 .hi__title {}
 .hi__strings {}
 .hi__image {}
-.footer {}
-.footer__row {}
+.footer {
+    background-color: #f5f5f5;
+}
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
 .footer__text {
-    font-family: Arial;
     font-size: 12px;
-    line-height: 24px;
     font-weight: 400;
-    letter-spacing: 0.025em;
     color: #445162;
+    letter-spacing: 0.3px;
+    
 }
