@@ -5,7 +5,10 @@ body{
 }
 
 
-.wrapper {}
+.wrapper {
+    min-height: 100%; //оболочка wrapper на всю высоту экрана;
+    overflow: hidden; //если не влазиет, то контент обрезается без прокрутки
+}
 .content {}
 .hi {}
 .container {
