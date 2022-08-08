@@ -75,6 +75,7 @@ body{
     font-weight: 400;
     color: #445161;
 }
+
 .what {
     padding: 50px 0;
 }
@@ -84,6 +85,10 @@ body{
 .what__image {
     flex: 0 0 430px; //Блок с картинкой - запрет на расшрение и на уменьшение и дали конкретную ширину
 }
+.what__title {
+padding: 0 0 36px 0;
+
+}
 .what__body {
     flex: 1 1 auto; //Соседнему блоку с картинкой дали возможность увеличиваться, уменьшаться.
     padding: 0 0 0 38px;
@@ -91,10 +96,13 @@ body{
 .what__image img {
     max-width: 100%; //С учетом ограничений флекс 430px, любая картинка впишется в этот размер и на займет больше пространства.
 }
-.what__body p {
+.what__text p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #333333;
+    margin-bottom: 25px;
+    
+
 }
 
