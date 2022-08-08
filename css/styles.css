@@ -151,13 +151,36 @@ body {
 }
 
 .title {
-  font-family: Arial;
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
   color: #445161;
 }
 
+.what {
+  padding: 50px 0;
+}
+
 .what__raw {
   display: flex;
+}
+
+.what__image {
+  flex: 0 0 430px;
+}
+
+.what__body {
+  flex: 1 1 auto;
+  padding: 0 0 0 38px;
+}
+
+.what__image img {
+  max-width: 100%;
+}
+
+.what__body p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
 }/*# sourceMappingURL=styles.css.map */
