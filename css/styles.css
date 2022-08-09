@@ -240,4 +240,23 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #333333;
+}
+
+.vertical {
+  padding: 50px 0;
+}
+
+.vertical__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.verical__body {
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.veritical__row {
+  display: flex;
+  flex-basis: 33, 33%;
 }/*# sourceMappingURL=styles.css.map */
